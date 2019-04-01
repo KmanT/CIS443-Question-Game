@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+$red-purple: #93173F;
+$logo-yellow: #F3EC6F;
+$secondary-blue: #28697F;
+$montserrat: 'Montserrat', sans-serif;
+$roboto: 'Roboto', sans-serif;
+
+body {
+    font-family: $roboto;
+}
+
+#outWrapper {
+    width: 90%;
+    display: flex;
+    min-height: 100%h;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    background-color: $red-purple;
+    display: inline-block;
+    width: 100%;
+}
+
+h1 {
+    color: $logo-yellow;
+    font-family: $montserrat;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 1em;
+}
+
+label {
+    margin-right: 0.5em;
+}
+
+.link-btn {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 3rem;
+    display: block;
+    flex-grow: 1;
+    background-color: $secondary-blue;
+    color: $logo-yellow;
+    border: none;
+    &:hover {
+        background-color: $red-purple;
+    }
+}
+
+.spacer {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+#keyContainer {
+    display: none;
+    background-color: $secondary-blue;
+    color: $logo-yellow;
+}
