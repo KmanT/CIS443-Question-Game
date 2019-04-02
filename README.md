@@ -1,3 +1,7 @@
+### In order for you to install all of the proper node modules, run this:
+
+### `npm install`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
